@@ -15,5 +15,6 @@ spec:
       containers:
         - name: nest-app
           image: nest-load-balancer
+          imagePullPolicy: Never
           ports:
             - containerPort: 3000
